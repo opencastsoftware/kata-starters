@@ -1,0 +1,9 @@
+/.bsp/
+target/
+
+.classpath
+.metals/
+metals.sbt
+.bloop/
+project/target/
+scala_target/
