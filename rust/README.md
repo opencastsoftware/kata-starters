@@ -9,7 +9,7 @@
 
 ### Prerequisite requirements
 
-- Rust and cargo. You'll need (rustup)[https://rustup.rs/] to build this one.
+- Rust and cargo. You'll need [rustup](https://rustup.rs/) to build this one.
 
 ### Coding and running
 
