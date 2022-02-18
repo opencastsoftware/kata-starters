@@ -6,7 +6,10 @@ namespace src
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var calc = new Calc();
+            var result = calc.Increment(1);
+
+            Console.WriteLine($"Increment: {result}");
         }
     }
 }
