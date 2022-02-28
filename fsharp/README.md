@@ -9,7 +9,7 @@
 
 ### Prerequisite requirements
 
-- [.NET 5.0](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
+- [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
 ### Coding and running
 
@@ -18,6 +18,7 @@
 ### Key commands
 
 - `dotnet build` - build the `src`/`test` files.
-- `dotnet run -p src/App` - run the app
+- `dotnet run --project src/App` - run the app
 - `dotnet watch --project src/App run` - compile/build/run the project and redo when any changes are made.
 - `dotnet test` - run the tests.
+- `dotnet watch test --project ./test` - run the tests and redo when any changes are made.
