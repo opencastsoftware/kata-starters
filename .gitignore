@@ -5,5 +5,8 @@
 
 # OS Metadata files
 .DS_Store
-target
-project
+target/
+project/*
+scala/project/project/
+!scala/project/build.properties
+!scala/project/Dependencies.scala
