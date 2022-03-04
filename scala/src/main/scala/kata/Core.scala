@@ -3,8 +3,6 @@ package kata
 class Core {
 
   def calculate(input: String): Either[String, Int] = {
-    println(input.head.toInt)
-
     val pattern = "(.+) (.+) (.+)".r
     val pattern(leftValue, operation, rightValue) = input
 
