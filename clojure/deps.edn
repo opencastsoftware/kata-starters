@@ -1,0 +1,2 @@
+{:aliases
+ {:test {:extra-deps {lambdaisland/kaocha {:mvn/version "1.64.1010"}}}}}
