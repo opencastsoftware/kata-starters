@@ -1,0 +1,3 @@
+#kaocha/v1 {:fail-fast? false
+            :color? true
+            :reporter [kaocha.report/documentation]}
