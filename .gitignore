@@ -5,3 +5,5 @@
 
 # OS Metadata files
 .DS_Store
+
+pubspec.lock
