@@ -2,6 +2,9 @@
 .metals/
 .idea/
 .vscode/
-
+.bloop/
+.bsp/
+project/
+target/
 # OS Metadata files
 .DS_Store
