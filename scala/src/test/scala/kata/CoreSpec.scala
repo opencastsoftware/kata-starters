@@ -29,6 +29,10 @@ class CoreSpec extends AnyWordSpec with Matchers {
     "return 50 if the palindrome has uppercase letters" in {
       core.isPalindrome("reed") mustBe 50
     }
+
+    "return 66 if the palindrome has uppercase letters" in {
+      core.isPalindrome("redden") mustBe 66
+    }
   }
 }
 
