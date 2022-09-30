@@ -59,4 +59,23 @@ class CoreSpec extends AnyWordSpec with Matchers {
     }
   }
 
+  "findWildcards" must {
+    "given a string containing a wildcard, it should find the wildcard" in {
+      val core = new Core 
+
+      var result = core.findWildcards("Test $hello$")
+
+      result mustBe 5 
+    }
+  }
+
+  "findWildcardLength" must {
+    "given a string containing a wildcard, it should find the number of the characters" in {
+      val core = new Core 
+      var result = core.findWildcardLength("Test $hello$")
+
+      result mustBe 5
+    }
+  }
+
 }

@@ -14,4 +14,11 @@ class Core {
     }
   }
 
+  def findWildcards(input:String): Int = {
+      input.indexOf('$')
+  }
+
+  def findWildcardLength(input:String): Int = {
+    findWildcards(input.substring(findWildcards(input)+1, input.length))
+  }
 }
