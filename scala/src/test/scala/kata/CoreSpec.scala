@@ -40,23 +40,22 @@ class CoreSpec extends AnyWordSpec with Matchers {
 
       // do we want to introduce arbitrary inputs using the scalacheck library?
       "given a populated map and a key with no wildcard, then the result should be the same as the input" in {
-          val core = new Core
-
-          val result = core.interpolate("Hello world", Map("Hello name" -> "Hello name"))
-
-          result mustBe "Hello name"
-
-        }
-      }
-
-    
-      "given a full string" ignore {
         val core = new Core
 
-        val result = core.interpolate("$temp$", Map("temp" -> "temporary"))
+        val result = core.interpolate("Hello world", Map("Hello name" -> "Hello name"))
 
-        result mustBe "temporary"
+        result mustBe "Hello name"
+
       }
+    }
+
+
+    "given a full string" ignore {
+      val core = new Core
+
+      val result = core.interpolate("$temp$", Map("temp" -> "temporary"))
+
+      result mustBe "temporary"
     }
   }
 
