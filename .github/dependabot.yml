@@ -1,0 +1,44 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directories:
+      - "/javascript"
+      - "/typescript"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "nuget"
+    directories: 
+      - "/csharp"
+      - "/fsharp"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "maven"
+    directories: 
+      - "/java"
+      - "/scala"
+      - "/kotlin"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gradle"
+    directories: 
+      - "/java"
+      - "/scala"
+      - "/kotlin"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/python"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "rust-toolchain"
+    directory: "/rust"
+    schedule:
+      interval: "weekly"
+
+# clojure
+# dart
+# haskell
