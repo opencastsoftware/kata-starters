@@ -16,18 +16,18 @@ updates:
       - "/fsharp"
     schedule:
       interval: "weekly"
-  - package-ecosystem: "maven"
-    directories: 
-      - "/java"
-      - "/scala"
-      - "/kotlin"
-    schedule:
-      interval: "weekly"
+  # - package-ecosystem: "maven"
+  #   directories: 
+  #     - "/java"
+  #     - "/scala"
+  #     - "/kotlin"
+  #   schedule:
+  #     interval: "weekly"
   - package-ecosystem: "gradle"
     directories: 
       - "/java"
-      - "/scala"
       - "/kotlin"
+      # - "/scala"
     schedule:
       interval: "weekly"
   - package-ecosystem: "pip"
